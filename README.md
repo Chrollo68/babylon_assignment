@@ -1,16 +1,26 @@
 # babylon_assignment
 
-A new Flutter project.
+This is my project of the login page , I had fun coding this part of the app and i had problems regarding the new versions of flutterfire cli initialization , improvements can be a better ui and more coherent seperation of logic and UI  
 
-## Getting Started
+right now  structure is :- 
+lib/
+│
+├── constants/
+│   └── app_colors.dart has the colors of shades of orange color
+│
+├── pages/
+│   ├── auth_page.dart        UI 
+│   ├── home_page.dart        Home page
+│
+├── main.dart                 
+└── services/
+    └── auth_service.dart     Logic of seperating the register and login user using a variable _islogin which is a bool
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+inorder to run my project :- 
+Flutter SDK installed (flutter --version)
+Firebase CLI installed (firebase --version)
+and flutter run 
+ photos:- (UI)   
+(https://github.com/user-attachments/assets/263a1cd5-b70d-46b7-b53d-d3d2b6b1a908)
+(https://github.com/user-attachments/assets/86c61973-e695-4d9d-bfa1-8c8cb8bb227c)
+(https://github.com/user-attachments/assets/0fd087b2-2927-4317-aaa5-c8709f9aaf6c)
