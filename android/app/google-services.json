@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "10858662705",
+    "project_id": "babylonassignment",
+    "storage_bucket": "babylonassignment.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10858662705:android:516dec9795bbf89bab7e10",
+        "android_client_info": {
+          "package_name": "com.example.babylon_assignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxzwklsAORE2WeZ4jAQs2RCCDvXv-9oR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
