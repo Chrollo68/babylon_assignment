@@ -43,20 +43,18 @@ class _AuthPageState extends State<AuthPage> {
       }
       if (user != null && mounted) {
         if (_isLogin) {
-          // For existing users, go to Home
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(builder: (_) => HomePage(user: user!)),
           );
         } else {
-          // For new registration, show success and switch to login screen
           ScaffoldMessenger.of(context).showSnackBar(
             const SnackBar(
               content: Text('Registration successful! Please log in.'),
             ),
           );
           setState(() {
-            _isLogin = true; // Switch to Login mode
+            _isLogin = true;
           });
           _nameController.clear();
           _emailController.clear();

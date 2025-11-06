@@ -31,7 +31,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          "Hey, ${user.displayName ?? "User"}! You’re successfully logged in.",
+          "Hey, ${user.displayName ?? "User"} You’re successfully logged in",
           style: const TextStyle(fontSize: 20),
           textAlign: TextAlign.center,
         ),
